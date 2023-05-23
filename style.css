@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218, 23%, 16%);
+}
+
+/* STYLING CONTAINER  */
+.advice-container {
+  max-width: 33.75rem;
+  margin: 0 auto;
+  background-color: hsl(217, 19%, 24%);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.5rem;
+  padding-bottom: 4.5rem;
+  border-radius: 12px;
+}
+
+/* ADVICE HEADING */
+.advice-heading {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 3.5px;
+}
+
+/* QUOTE */
+
+.quote {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+  font-weight: 800;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* DICE ICON  */
+.dice-btn {
+  position: absolute;
+  background-color: transparent;
+  cursor: pointer;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.circle {
+  position: absolute;
+  bottom: 0;
+  background-color: hsl(150, 100%, 66%);
+  transform: translateY(50%);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 2rem;
+  transition: all 0.3s;
+}
+
+/* HOVER EFFECT */
+.circle:hover {
+  box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
+/* -------- */
+
+/* STYLING THE FOOTER */
+
+.attribution {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: hsl(193, 38%, 86%);
+  font-size: 1rem;
+}
+
+.attribution a {
+  color: hsl(150, 100%, 66%);
+}
+/* --------- */

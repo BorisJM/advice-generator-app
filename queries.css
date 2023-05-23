@@ -1,0 +1,19 @@
+@media (max-width: 37.5em) {
+  .advice-container {
+    max-width: 24.75rem;
+  }
+
+  .attribution {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .advice-container {
+    max-width: 19.75rem;
+  }
+
+  .quote {
+    font-size: 20px;
+  }
+}
